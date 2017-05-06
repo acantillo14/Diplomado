@@ -78,15 +78,15 @@ public class Principal extends AppCompatActivity {
 
                                 case 0:
                                     res = cant * nikeZ1;
-                                    uni = cant;
+                                    uni = nikeZ1;
                                     break;
                                 case 1:
                                     res = cant * adidasZ1;
-                                    uni = cant;
+                                    uni = adidasZ1;
                                     break;
                                 case 2:
                                     res = cant * pumaZ1;
-                                    uni = cant;
+                                    uni = pumaZ1;
                                     break;
 
 
@@ -98,15 +98,15 @@ public class Principal extends AppCompatActivity {
 
                                 case 0:
                                     res = cant * nikeC1;
-                                    uni = cant;
+                                    uni = nikeC1;
                                     break;
                                 case 1:
                                     res = cant * adidasC1;
-                                    uni = cant;
+                                    uni = adidasC1;
                                     break;
                                 case 2:
                                     res = cant * pumaC1;
-                                    uni = cant;
+                                    uni = pumaC1;
                                     break;
                             }
                             break;
@@ -124,15 +124,15 @@ public class Principal extends AppCompatActivity {
 
                                 case 0:
                                     res = cant * nikeZ2;
-                                    uni = cant;
+                                    uni = nikeZ2;
                                     break;
                                 case 1:
                                     res = cant * adidasZ2;
-                                    uni = cant;
+                                    uni = adidasZ2;
                                     break;
                                 case 2:
                                     res = cant * pumaZ2;
-                                    uni = cant;
+                                    uni = pumaZ2;
                                     break;
 
 
@@ -144,15 +144,15 @@ public class Principal extends AppCompatActivity {
 
                                 case 0:
                                     res = cant * nikeC2;
-                                    uni = nikeC2/cant;
+                                    uni = nikeC2;
                                     break;
                                 case 1:
                                     res = cant * adidasC2;
-                                    uni = adidasC2/cant;
+                                    uni = adidasC2;
                                     break;
                                 case 2:
                                     res = cant * pumaC2;
-                                    uni = cant;
+                                    uni = pumaC2;
                                     break;
                             }
                             break;
@@ -182,5 +182,11 @@ public class Principal extends AppCompatActivity {
 
         }
         return true;
+    }
+
+    public void borrar(View v){
+        valorTotal.setText("");
+        valorUnidad.setText("");
+        canti.requestFocus();
     }
 }

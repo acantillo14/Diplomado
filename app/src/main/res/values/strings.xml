@@ -18,6 +18,7 @@
     <string name="puma">Puma</string>
     <string name="error_c">"La cantidad no puede estar vacia "</string>
     <string name="error_cero">"No puede ser cero"</string>
+    <string name="borrar">Borrar</string>
     <string-array name="sexo_comprador">
         <item>@string/hombre</item>
         <item>@string/mujer</item>
