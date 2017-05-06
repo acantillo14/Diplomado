@@ -50,43 +50,42 @@ public class Principal extends AppCompatActivity {
 
 
     public void calcular (View v){
-
-
-
-        int op1, op2, op3, cant, res=0,uni=0;
-        int nikeZ1=120000, adidasZ1=140000, pumaZ1=130000, nikeZ2=100000, adidasZ2=130000, pumaZ2=110000;
-        int nikeC1=50000, adidasC1=80000, pumaC1=100000, nikeC2=60000, adidasC2=70000, pumaC2=120000;
+        int cbsexo, cbtipo, cbmarca, cant, res=0,uni=0;
+        int Hombren=120000, Hombrea=140000, Hombrep=130000;
+        int Hombrecn=50000, Hombreca=80000, Hombrecp=100000;
+        int Mujern=100000, Mujera=130000, Mujerp=110000;
+        int Mujercn=60000, Mujerca=70000, Mujercp=120000;
 
         if (validar()) {
 
             cant = Integer.parseInt(canti.getText().toString());
 
-            op1 = comboSexo.getSelectedItemPosition();
-            op2 = comboTipoZ.getSelectedItemPosition();
-            op3 = comboMarca.getSelectedItemPosition();
+            cbsexo = comboSexo.getSelectedItemPosition();
+            cbtipo = comboTipoZ.getSelectedItemPosition();
+            cbmarca = comboMarca.getSelectedItemPosition();
 
 
-            switch (op1) {
+            switch (cbsexo) {
 
                 case 0:
 
-                    switch (op2) {
+                    switch (cbtipo) {
 
                         case 0:
 
-                            switch (op3) {
+                            switch (cbmarca) {
 
                                 case 0:
-                                    res = cant * nikeZ1;
-                                    uni = nikeZ1;
+                                    res = cant * Hombren;
+                                    uni = Hombren;
                                     break;
                                 case 1:
-                                    res = cant * adidasZ1;
-                                    uni = adidasZ1;
+                                    res = cant * Hombrea;
+                                    uni = Hombrea;
                                     break;
                                 case 2:
-                                    res = cant * pumaZ1;
-                                    uni = pumaZ1;
+                                    res = cant * Hombrep;
+                                    uni = Hombrep;
                                     break;
 
 
@@ -94,19 +93,19 @@ public class Principal extends AppCompatActivity {
                             break;
                         case 1:
 
-                            switch (op3) {
+                            switch (cbmarca) {
 
                                 case 0:
-                                    res = cant * nikeC1;
-                                    uni = nikeC1;
+                                    res = cant * Hombrecn;
+                                    uni = Hombrecn;
                                     break;
                                 case 1:
-                                    res = cant * adidasC1;
-                                    uni = adidasC1;
+                                    res = cant * Hombreca;
+                                    uni = Hombreca;
                                     break;
                                 case 2:
-                                    res = cant * pumaC1;
-                                    uni = pumaC1;
+                                    res = cant * Hombrecp;
+                                    uni = Hombrecp;
                                     break;
                             }
                             break;
@@ -116,23 +115,23 @@ public class Principal extends AppCompatActivity {
 
                 case 1:
 
-                    switch (op2) {
+                    switch (cbtipo) {
 
                         case 0:
 
-                            switch (op3) {
+                            switch (cbmarca) {
 
                                 case 0:
-                                    res = cant * nikeZ2;
-                                    uni = nikeZ2;
+                                    res = cant * Mujern;
+                                    uni = Mujern;
                                     break;
                                 case 1:
-                                    res = cant * adidasZ2;
-                                    uni = adidasZ2;
+                                    res = cant * Mujera;
+                                    uni = Mujera;
                                     break;
                                 case 2:
-                                    res = cant * pumaZ2;
-                                    uni = pumaZ2;
+                                    res = cant * Mujerp;
+                                    uni = Mujerp;
                                     break;
 
 
@@ -140,19 +139,19 @@ public class Principal extends AppCompatActivity {
                             break;
                         case 1:
 
-                            switch (op3) {
+                            switch (cbmarca) {
 
                                 case 0:
-                                    res = cant * nikeC2;
-                                    uni = nikeC2;
+                                    res = cant * Mujercn;
+                                    uni = Mujercn;
                                     break;
                                 case 1:
-                                    res = cant * adidasC2;
-                                    uni = adidasC2;
+                                    res = cant * Mujerca;
+                                    uni = Mujerca;
                                     break;
                                 case 2:
-                                    res = cant * pumaC2;
-                                    uni = pumaC2;
+                                    res = cant * Mujercp;
+                                    uni = Mujercp;
                                     break;
                             }
                             break;
