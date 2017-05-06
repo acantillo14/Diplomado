@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoreXYZ</string>
+    <string name="cantidad">Quantity</string>
+    <string name="comprar">Buy</string>
+    <string name="marca">Brand</string>
+    <string name="sexo">Sex</string>
+    <string name="tipoz">Shoe Style</string>
+    <string name="tot_compra">Total</string>
+    <string name="total_compra">Total</string>
+    <string name="tunidad">Unity</string>
+    <string name="unidad">Unity</string>
+    <string name="hombre">Male</string>
+    <string name="mujer">Female</string>
+    <string name="clasico">Classic</string>
+    <string name="zapatilla">Sneakers</string>
+    <string name="nike">Nike</string>
+    <string name="error_c">Quantity can not be empty</string>
+    <string name="puma">Puma</string>
+    <string name="adidas">Adidas</string>
+    <string name="error_cero">Can not be zero</string>
+</resources>

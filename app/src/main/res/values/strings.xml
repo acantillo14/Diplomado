@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">StoreXYZ</string>
+    <string name="comprar">COMPRAR</string>
+    <string name="sexo">Sexo</string>
+    <string name="tipoz">Tipo Zapato</string>
+    <string name="marca">Marca</string>
+    <string name="unidad">Valor Unidad</string>
+    <string name="tunidad">Valor Unidad</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="total_compra">Total Compra</string>
+    <string name="tot_compra">Total Compra</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clásico</string>
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
+    <string name="error_c">"La cantidad no puede estar vacia "</string>
+    <string name="error_cero">"No puede ser cero"</string>
+    <string-array name="sexo_comprador">
+        <item>@string/hombre</item>
+        <item>@string/mujer</item>
+    </string-array>
+    <string-array name="tipo_zapato">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+
+    <string-array name="marca_zapato">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </string-array>
+
+
+</resources>
