@@ -113,7 +113,8 @@
             android:text="@string/borrar"
             android:layout_width="134dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btnBorrar" />
+            android:id="@+id/btnBorrar"
+            android:onClick="borrar" />
 
     </LinearLayout>
 

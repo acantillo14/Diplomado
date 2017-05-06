@@ -187,6 +187,7 @@ public class Principal extends AppCompatActivity {
     public void borrar(View v){
         valorTotal.setText("");
         valorUnidad.setText("");
+        canti.setText("");
         canti.requestFocus();
     }
 }
